@@ -17,3 +17,16 @@ Git commands-
 3- To change the default text-editor
 	"git config --global core.editor "c:/Program Files/Notepad++/notepad++.exe"
                         	or you can give the path of any editor in the "notepad"
+
+
+4- For initializing local repo
+	"git init"
+
+5- To check the untracked and tracked files in local repo.
+	"git status"
+      	"git status -s" (verbose format)
+
+6- To add untracked files in local repo.
+	"git add <file_name>"
+   To add all files at onece :
+	"git add *"
