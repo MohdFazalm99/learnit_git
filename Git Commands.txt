@@ -24,7 +24,8 @@ Git commands-
 
 5- To check the untracked and tracked files in local repo.
 	"git status"
-      	"git status -s" (verbose format)
+      	"git status -s" (short format)
+	"git status -h or --help" (for geting all the options we can use in git status command)
 
 6- To add untracked files in local repo.
 	"git add <file_name>"
