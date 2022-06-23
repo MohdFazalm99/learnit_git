@@ -1,0 +1,19 @@
+Git From Basic to Advanced level:
+
+Git commands-
+
+1- For making username as a global 
+	"git config --global user.name "Fazal Mahmood"
+
+   To check who you are:
+	"git config user.name"
+
+2- For making email as a global
+	"git config --global user.name "fazal.mahmood@example.com"
+
+   To check the global useremail
+	"git config user.email"
+
+3- To change the default text-editor
+	"git config --global core.editor "c:/Program Files/Notepad++/notepad++.exe"
+                        	or you can give the path of any editor in the "notepad"
