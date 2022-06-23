@@ -29,10 +29,15 @@ Git commands-
 
 6- To add untracked files in local repo.
 	"git add <file_name>"
+
    To add all files at onece :
 	"git add ."
+
    To add files of a certain extention:
 	"git add *.java"
 
 7- To commit files with a message:
 	"git commit -m "your message"
+
+   To add and commit a file together:
+	"git commit -a -m "your message"
