@@ -76,3 +76,10 @@ Git commands-
 
 11- To make an update in your last commit message:
 	"git commit --amend" (your default editor will open and you have to update your commit message and save the file)
+
+
+12- To make file out of the staging area but the new changes will be preserved:
+	"git restore --staged <file_name>"
+
+    To discard changes in a file as well as make file out of the staging area:
+	"git restore <file_name>"
