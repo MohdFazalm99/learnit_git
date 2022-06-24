@@ -42,5 +42,22 @@ Git commands-
    To add and commit a file together:
 	"git commit -a -m "your message"
 
-8- To remove from your git tree but it will be present in the directory:
+8- To remove from your git staging area but it will be present in the directory:
 	"git rm --cached <file_name>
+	note: --cached flag is very important as if we dont use it in our command the file will be removed from both the git staging area as well as from our directory.
+
+    To remove many files(these files will be in another sub-directory) at once from git staging area:
+	"git rm -r --cached <directory/>
+
+9- To use .gitignore file to stop any files to be added in your git staging area:
+	"touch .gitignore" (it will create a .gitignorefile"
+	"nano .gitignore" (add the file names which you dont want to add in your git staging area)
+
+10- To see the commit history:
+	"git log" 
+
+    To see only recent two commit history"
+	"git log -2"
+	
+    To see log's message in one line"
+	"git log --pretty=oneline"
