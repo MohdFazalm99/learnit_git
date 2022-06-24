@@ -83,3 +83,16 @@ Git commands-
 
     To discard changes in a file as well as make file out of the staging area:
 	"git restore <file_name>"
+
+
+13- TO see whether our local repo is connected to remote repo or not:
+	"git remote -v"
+
+    To add remote repo(https method):
+	"git remote add origin "https://........"
+
+    To push your work from local to remote repo:
+	"git push -u origin master" (here -u is upstream which will connect our local epo to remote repo)
+
+14- To clone any remote repo(https method):
+	"git clone "https://..........."
