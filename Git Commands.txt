@@ -71,4 +71,4 @@ Git commands-
 
 
 11- To make an update in your last commit message:
-	git commit -m
+	"git commit --amend" (your default editor will open and you have to update your commit message and save the file)
