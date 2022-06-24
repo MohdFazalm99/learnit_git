@@ -18,11 +18,15 @@ Git commands-
 	"git config --global core.editor "c:/Program Files/Notepad++/notepad++.exe" "
                         	or you can give the path of any editor in the "notepad"
 		or
-	git config core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+	"git config core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin" "
 
     
    To make VS code as our default editor:
-	git config core.editor "code -w"
+	"git config core.editor "code -w""
+
+   To make vim as our default editor:
+	"git config core.editor "vi" "
+
 
 
 
