@@ -41,3 +41,6 @@ Git commands-
 
    To add and commit a file together:
 	"git commit -a -m "your message"
+
+8- To remove from your git tree but it will be present in the directory:
+	"git rm --cached <file_name>
