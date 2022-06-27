@@ -105,3 +105,17 @@ Git commands-
 
 	*To check which remote url is linked with your local repo:
 	"git remote -v"
+
+
+
+16- To create branches in git:
+	"git branch new_branch" (it will only create a branch not switched to that branch)
+	"git checkout -b new_branch1"(this command will create and switched to that specific branch)
+
+17- To see in the branches;
+	"git branch"
+	"git branch -r"(it will show the branch name which is in remote"
+	"git branch -a"(to see all local and remote branch"
+
+
+
