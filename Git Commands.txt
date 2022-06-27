@@ -122,9 +122,16 @@ Git commands-
 
 19- To switch branches:
 	"git checkout master"
-
+	"git switch master"
+	"git switch -c new_branch2"
 20- To push the files in specific branch:
 	"git push origin -u new_branch1"
+
+21- To delete a branch:
+	"git branch -d new_branch"
+	
+    To delete a remote branch with all it files:
+	"git push origin --delete new_branch1"
 
 
 
