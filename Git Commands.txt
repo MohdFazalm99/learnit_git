@@ -117,5 +117,12 @@ Git commands-
 	"git branch -r"(it will show the branch name which is in remote"
 	"git branch -a"(to see all local and remote branch"
 
+18- To check logs for a specific branch:
+	"git log new_branch1
+
+19- To switch branches:
+	"git checkout master"
+
+
 
 
