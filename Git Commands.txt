@@ -96,3 +96,12 @@ Git commands-
 
 14- To clone any remote repo(https method):
 	"git clone "https://..........."
+
+
+15- We can use ssh url in to link our local repo to our remote repo:
+	*fist generate the public ssh key and paste it in github ssh settings.
+	*copy the ssh url of your remote repo.
+	"git remote set-url git@github.com:MohdFazalm99/learnit_git.git"
+
+	*To check which remote url is linked with your local repo:
+	"git remote -v"
